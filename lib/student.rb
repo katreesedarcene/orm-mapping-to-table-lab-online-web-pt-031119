@@ -20,7 +20,7 @@ class Student
     
   end
   def self.drop_table 
-    
+    sqlite> DROP TABLE cats;
     
     
   end
