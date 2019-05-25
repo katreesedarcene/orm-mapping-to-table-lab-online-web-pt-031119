@@ -20,7 +20,7 @@ class Student
     
   end
   def self.drop_table 
-    sqlite = "DROP TABLE IF EXISTS students;"
+    sql = "DROP TABLE IF EXISTS students;"
      DB[:conn].execute(sql) 
   end
 
